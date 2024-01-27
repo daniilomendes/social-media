@@ -10,7 +10,7 @@ const Home = () => {
     return (
       <div className="flex flex-1">
         <div className="home-container">
-          <p className="body-medium text-light-1">Something bad happened</p>
+          <p className="body-medium text-light-1">Algo ruím aconteceu</p>
         </div>
       </div>
     );
