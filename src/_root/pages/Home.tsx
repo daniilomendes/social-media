@@ -5,6 +5,17 @@ import { Models } from "appwrite"
 
 const Home = () => {
   const {data: posts, isPending: isPostLoading, isError: isErrorPosts} = useGetRecentPosts()
+
+  if (isErrorPosts) {
+    return (
+      <div className="flex flex-1">
+        <div className="home-container">
+          <p className="body-medium text-light-1">Something bad happened</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className=" flex flex-1">
       <div className="home-container">
