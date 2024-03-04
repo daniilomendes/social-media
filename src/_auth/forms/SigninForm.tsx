@@ -102,7 +102,7 @@ const SigninForm = () => {
                 <Loader /> Loading...
               </div>
             ) : (
-              "Cadastrar"
+              "Entrar"
             )}
           </Button>
 
