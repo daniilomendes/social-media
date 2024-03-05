@@ -4,11 +4,11 @@ export const sidebarLinks = [
       route: "/",
       label: "Página Incial",
     },
-    {
-      imgURL: "/assets/icons/wallpaper.svg",
-      route: "/explore",
-      label: "Explorar",
-    },
+    // {
+    //   imgURL: "/assets/icons/wallpaper.svg",
+    //   route: "/explore",
+    //   label: "Explorar",
+    // },
     {
       imgURL: "/assets/icons/people.svg",
       route: "/all-users",
